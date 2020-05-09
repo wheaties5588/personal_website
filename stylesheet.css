@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: auto;
+}
+.top-nav-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: black;
+}
+.nav-logo {
+    font: 700 25px/25px 'Rubik', sans-serif;
+    color: white;
+    margin: auto 0px auto 30px;
+    float: left;
+}
+.nav-links-div {
+    float: right;
+    margin: auto 30px auto 0px;
+}
+.nav-link {
+    color: #90BBE6;
+    padding-left: 20px;
+    font: 300 15px/15px 'Rubik', sans-serif;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.header-img-div {
+    position: relative;
+    width: 50%;
+}
+.header-img-div img {
+    width: 100%;
+}
+.header-info-div {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 25px;
+    font-family: 'Rubik', sans-serif;
+}
+.header-info-div h1, .info-section h2 {
+    font-size: 50px;
+    max-width: 315px;
+    margin: auto auto auto 0px;
+}
+.head-subtext {
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.description {
+    line-height: 25px;
+}
+.info-section {
+    padding: 20px;
+}
+.black-border-div {
+    border: 4px solid black;
+    padding: 20px
+}
+.no-border {
+    border: none;
+}
+.info-section h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+}
+ul {
+    list-style-type: none;
+}
+.contact-list-item {
+    display: inline-block;
+    padding-right: 10px;
+}
+.email {
+    color: black
+}
