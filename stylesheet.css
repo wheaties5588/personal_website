@@ -3,6 +3,13 @@
 body {
     margin: auto;
 }
+a, p {
+    font-family: 'Rubik', sans-serif;
+}
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
 .top-nav-container {
     display: flex;
     justify-content: space-between;
@@ -50,10 +57,9 @@ body {
     padding: 25px;
     font-family: 'Rubik', sans-serif;
 }
-.header-info-div h1, .info-section h2 {
+.header-info-div h1 {
     font-size: 50px;
     max-width: 315px;
-    margin: auto auto auto 0px;
 }
 .head-subtext {
     font-weight: 500;
@@ -71,13 +77,17 @@ body {
 }
 .no-border {
     border: none;
+    text-align: right;
 }
-.info-section h2 {
+.section-header {
     font-family: 'Rubik', sans-serif;
     font-size: 35px;
 }
-ul {
-    list-style-type: none;
+.header-left {
+    margin: auto auto auto 0px;
+}
+.header-right {
+    margin: auto 0px auto auto;
 }
 .contact-list-item {
     display: inline-block;
