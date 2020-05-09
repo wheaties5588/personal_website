@@ -66,6 +66,7 @@ main {
     font-family: 'Rubik', sans-serif;
 }
 .header-info-div h1 {
+    margin: auto 0px;
     font-size: 50px;
     max-width: 315px;
 }
