@@ -22,6 +22,6 @@ CSS
 
 ### License
 ​
-Copyright(c) 2020 By Matthew Wieciech
+Copyright(c) 2020 By Matthew Wieciech  
 ​
 This software is licensed under MIT license.
