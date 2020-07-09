@@ -134,7 +134,7 @@ main {
 .project-button {
     display: inline-block;
     margin-bottom: 15px;
-    font-size: 12px;
+    font-size: 14px;
     padding: 5px 15px;
     border: 2px solid #222;
     background-color: #222;
@@ -160,7 +160,7 @@ main {
     width: 100%;
 }
 .project-desc {
-    line-height: 18px;
+    line-height: 20px;
     margin: auto auto 25px auto;
 }
 .project-btn-div {
@@ -189,6 +189,12 @@ main {
     }
     .description {
         line-height: 20px;
+    }
+    .project-desc {
+        line-height: 18px;
+    }
+    .project-button {
+        font-size: 12px;
     }
 }
 
