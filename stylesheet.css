@@ -6,7 +6,7 @@
 body {
     margin: auto;
 }
-a, p {
+a, p, h3 {
     font-family: 'Rubik', sans-serif;
 }
 ul {
@@ -115,6 +115,57 @@ main {
 .nav-not-link:hover {
     text-decoration: none;
 }
+.project-holder-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    margin: 25px auto auto auto;
+    width: 100%;
+}
+.project-card {
+    width: 32%;
+    padding: 10px;
+    border: 3px solid #222;
+    box-shadow: 3px 3px 5px #222;
+}
+.project-button {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 12px;
+    padding: 5px 15px;
+    border: 2px solid #222;
+    background-color: #222;
+    color: #fff;
+    text-decoration: none;
+    transition: .4s ease;
+}
+.project-button:hover {
+    color: #222;
+    background-color: #fff;
+}
+.project-card h3 {
+    font-weight: 500;
+    margin: 10px auto 15px auto;
+}
+.project-img-div {
+    display: block;
+    position: relative;
+    border: 1px solid #222;
+    line-height: 0px;
+}
+.project-img-div img {
+    width: 100%;
+}
+.project-desc {
+    line-height: 16px;
+    margin: auto auto 25px auto;
+}
+.project-btn-div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
 
 @media screen and (min-width: 1200px) {
     .info-section {
@@ -180,5 +231,9 @@ main {
     .footer-logo, .nav-not-link, .footer-nav-links {
         float: none;
         padding: 0px;
+    }
+    .project-card {
+        width: 48%;
+        margin-bottom: 4%;
     }
 }
