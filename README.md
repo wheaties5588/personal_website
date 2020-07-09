@@ -1,6 +1,6 @@
 # Matthew Wieciech Personal Website
 
-​![Product Logo](./images/logo.PNG) 
+​![Product Logo](./images/readme_screenshot.png) 
 
 Link to site: https://matthewwieciech.com
 ​
