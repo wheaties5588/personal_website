@@ -128,6 +128,7 @@ main {
     justify-content: space-between;
     width: 32%;
     padding: 10px;
+    margin-bottom: 2%;
     border: 3px solid #222;
     box-shadow: 3px 3px 5px #222;
 }
